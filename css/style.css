@@ -4,7 +4,7 @@
     padding: 0px;
 }
 
-.container {
+body {
     max-width: 920px;
     width: 100%;
     margin: auto;
@@ -16,7 +16,7 @@
     font-weight: 900;
 }
 
-.container > p, h1 {
+header > p, h1 {
     text-align: center;
 }
 
