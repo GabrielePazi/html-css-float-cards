@@ -8,13 +8,33 @@
     max-width: 920px;
     width: 100%;
     margin: auto;
+    font-family: Comic Sans MS;
 }
 
 .main_title {
     color: rgb(236, 107, 129);
     margin: 25px 0px;
+    font-weight: 900;
 }
 
-.container h1, p {
+.container > p, h1 {
     text-align: center;
+}
+
+.clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.label {
+    border: 10px solid white;
+    float: left;
+    background-color: black;
+    width: 33%;
+}
+
+img {
+    height: 80px;
+    float: left;
 }
